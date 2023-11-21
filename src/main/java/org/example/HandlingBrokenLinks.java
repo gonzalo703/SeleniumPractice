@@ -13,9 +13,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.asserts.SoftAssert;
 
 public class HandlingBrokenLinks {
-    public HandlingBrokenLinks() {
-    }
-
     public static void main(String[] args) throws IOException {
         WebDriver driver = new ChromeDriver();
         driver.get("https://rahulshettyacademy.com/AutomationPractice/");

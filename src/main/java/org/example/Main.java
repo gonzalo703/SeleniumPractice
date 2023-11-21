@@ -10,9 +10,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Main {
-    public Main() {
-    }
-
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
         driver.get("https://qaclickacademy.com/practice.php");

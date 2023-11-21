@@ -8,9 +8,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class HandleCalendarPractice {
-    public HandleCalendarPractice() {
-    }
-
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
         driver.get("https://path2usa.com/travel-companions");

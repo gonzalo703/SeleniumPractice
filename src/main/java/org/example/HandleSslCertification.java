@@ -15,9 +15,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 public class HandleSslCertification {
-    public HandleSslCertification() {
-    }
-
     public static void main(String[] args) throws IOException {
         ChromeOptions options = new ChromeOptions();
         options.setAcceptInsecureCerts(true);

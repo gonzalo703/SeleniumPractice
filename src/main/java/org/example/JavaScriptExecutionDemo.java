@@ -11,9 +11,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class JavaScriptExecutionDemo {
-    public JavaScriptExecutionDemo() {
-    }
-
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
         driver.get("https://rahulshettyacademy.com/AutomationPractice/");
